@@ -1,3 +1,17 @@
+/*GOOGLE FONTS=========*/
+
+/*============VARIABLES CSS========*/
+:root {
+  --header-height: 3.5rem;
+
+  /*======COLORS=======*/
+  /*COLOR MODE HSL(HUE, SATURATION, LIGHTNESS*/
+
+  --first-color: hsl(352, 93%, 50%);
+  --first-color-alt: hsl(352, 93%, 46%);
+  --first-color-dark: hsl(353, 50%, 15%);
+}
+
 /*-------=====HEADER & NAV--=====*/
 .header {
   position: fixed;
