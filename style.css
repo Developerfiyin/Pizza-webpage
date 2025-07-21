@@ -91,7 +91,13 @@
   flex-direction: column;
 }
 
-.nav__list::after {
+.nav__link {
+  position: relative;
+  color: var(--title-color);
+  font-family: var(--second-font);
+}
+
+.nav__link::after {
   content: "";
   width: 100%;
   background-color: var(--first-color);
@@ -100,6 +106,16 @@
   bottom: -0.5rem;
   height: 3px;
   transition: width 0.4s;
+}
+
+.nav__link:hover::after {
+  width: 60%;
+}
+
+.nav__close {
+  position: absolute;
+  top: 1rem;
+  right: 1.5rem;
 }
 /* SHOW MENU ======================*/
 
