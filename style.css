@@ -49,3 +49,23 @@
   justify-content: space-between;
   align-items: center;
 }
+
+.nav__logo {
+  display: inline-flex;
+  align-items: center;
+  column-gap: 0.25rem;
+  font-family: var(--second-font);
+  color: var(--title-color);
+}
+
+.nav__logo img {
+  width: 24px;
+}
+
+.nav__toggle,
+.nav__close {
+  display: flex;
+  font-size: 1.5rem;
+  color: var(--title-color);
+  cursor: pointer;
+}
