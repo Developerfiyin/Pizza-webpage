@@ -87,9 +87,20 @@
 .nav__list {
   text-align: center;
   display: flex;
-  column-gap: ;
+  row-gap: 2rem;
+  flex-direction: column;
 }
 
+.nav__list::after {
+  content: "";
+  width: 100%;
+  background-color: var(--first-color);
+  position: absolute;
+  left: 0;
+  bottom: -0.5rem;
+  height: 3px;
+  transition: width 0.4s;
+}
 /* SHOW MENU ======================*/
 
 /* ADD SHADOW HEADER */
