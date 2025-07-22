@@ -31,8 +31,31 @@
   --h3-font-size: 1rem;
   --normal-font-size: 0.938rem;
   --small-font-size: 0.813rem;
+  --smaller-font-size: 0.75rem;
+
+  /*-------======FONT WEIGHT ===========*/
+  --font-regular: 400;
+  --font-medium: 520;
+  --font-semi-bold: 600;
+
+  /*======Z -INDEX */
+  --z-tooltip: 10;
+  --z-fixed: 100;
 }
 
+/* REDPONSIVE TOPOGRAPHY*/
+@media screen and (min-width: 1150px) {
+  :root {
+    --biggest-font-size: 4.25rem;
+    --bigger-font-size: 2.5rem;
+    --h1-font-size: 2.25rem;
+    --h2-font-size: 1.5rem;
+    --h3-font-size: 1.25rem;
+    --normal-font-size: 1rem;
+    --small-font-size: 0.877rem;
+    --smaller-font-size: 0.813rem;
+  }
+}
 /*-------=====HEADER & NAV--=====*/
 .header {
   position: fixed;
@@ -40,7 +63,7 @@
   top: 0;
   left: 0;
   background-color: var(--body-color);
-  z-index: ;
+  z-index: var(--z-fixed);
   transition: box-shadow 0.4s;
 }
 
