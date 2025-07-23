@@ -6,7 +6,7 @@ const navMenu = document.getElementById("nav-menu"),
 
 /* ===============MENU SHOw=========== */
 if (navToggle) {
-  navToggle.addEventListenter("click", () => {
+  navToggle.addEventListener("click", () => {
     navMenu.classList.add("show-menu");
   });
 }
@@ -14,6 +14,11 @@ if (navToggle) {
 /* ============MENU HIDDEN =================== */
 if (navClose) {
   navClose.addEventListener("click", () => {
-    navMenu.classList.remove("show - menu");
+    navMenu.classList.remove("show-menu");
   });
 }
+
+/* ===========PEKA*/
+document.getElementById("btn").onclick = function () {
+  alert("Peka is 16 years old right now!");
+};
