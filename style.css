@@ -203,7 +203,7 @@ img {
 
 .nav__link::after {
   content: "";
-  width: 100%;
+  width: 0;
   background-color: var(--first-color);
   position: absolute;
   left: 0;
@@ -221,6 +221,7 @@ img {
   top: 1rem;
   right: 1.5rem;
 }
+
 /* SHOW MENU ======================*/
 .show-menu {
   top: 0;

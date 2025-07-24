@@ -18,8 +18,8 @@ if (navClose) {
   });
 }
 
-//======REMOVE MENU MOBILE
-const navLink = document.querySelectorAll("nav__link");
+//======REMOVE MENU MOBILE===========
+const navLink = document.querySelectorAll(".nav__link");
 
 const linkAction = () => {
   const navMenu = document.getElementById("nav-menu");
@@ -28,6 +28,9 @@ const linkAction = () => {
 };
 
 navLink.forEach((n) => n.addEventListener("click", linkAction));
+
+//==================ADD SHADOW HEADER===========
+
 /* ===========PEKA*/
 document.getElementById("btn").onclick = function () {
   alert("Peka is 16 years old right now!");
