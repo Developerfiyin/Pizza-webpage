@@ -263,6 +263,19 @@ img {
   bottom: -4.5rem;
 }
 
+.home__images {
+  position: relative;
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+}
+
+.home__ingredient {
+  width: 60px;
+  filter: var(--shadow-small-img);
+  position: absolute;
+  z-index: 2;
+}
 /* ===========BUTTON=============*/
 .button {
   display: inline-flex;
