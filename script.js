@@ -31,6 +31,15 @@ navLink.forEach((n) => n.addEventListener("click", linkAction));
 
 //==================ADD SHADOW HEADER===========
 
+const shadowHeader = () => {
+  const header = document.getElementById("header");
+  // ADD A CLASS IF THE BOTTOM OFFSET IS GREATER THAN 50 OF THE VALUE
+  this.scrollY >= 50
+    ? header.classList.add("shadow-header")
+    : header.classList.remove("shadow-header");
+};
+window.addEventListener("scroll", shadowHeader);
+
 /* ===========PEKA*/
 document.getElementById("btn").onclick = function () {
   alert("Peka is 16 years old right now!");
