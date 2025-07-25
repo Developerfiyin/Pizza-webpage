@@ -245,7 +245,23 @@ img {
 .home__description {
   margin-block: 1rem 2rem;
 }
+.home__sticker-1,
+.home__sticker-2 {
+  opacity: -7;
+  position: absolute;
+  width: 40px;
+}
 
+.home__sticker-1 {
+  right: 0.75rem;
+  rotate: 30deg;
+  bottom: 2rem;
+}
+
+.home__sticker-2 {
+  left: 2.5rem;
+  bottom: -4.5rem;
+}
 /* ADD SHADOW HEADER */
 
 /*ACTIVE LINK */
