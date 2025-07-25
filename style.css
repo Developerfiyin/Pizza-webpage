@@ -336,6 +336,25 @@ img {
   background-color: var(--first-color);
 }
 
+/*==============ABOUT======================*/
+.about {
+  background-color: var(--container-color);
+}
+
+.about__container {
+  row-gap: 2rem;
+  padding-bottom: 2rem;
+}
+
+.about__data {
+  position: relative;
+  text-align: center;
+}
+
+.about__data .section-title {
+  margin-bottom: 1rem;
+}
+
 /* ADD SHADOW HEADER */
 
 /*ACTIVE LINK */
