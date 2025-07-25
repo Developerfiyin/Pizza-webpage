@@ -262,6 +262,19 @@ img {
   left: 2.5rem;
   bottom: -4.5rem;
 }
+
+/* ===========BUTTON=============*/
+.button {
+  display: inline-flex;
+  justify-content: center;
+  background-color: var(--first-color);
+  color: var(--white-color);
+  padding: 1rem 1.5rem;
+  font-weight: var(--font-semi-bold);
+  border-radius: 4rem;
+  box-shadow: 0 8px 24px hsla(353, 100%, 40%, 0.4);
+  transition: background-color 0.4s;
+}
 /* ADD SHADOW HEADER */
 
 /*ACTIVE LINK */
