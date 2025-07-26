@@ -41,9 +41,9 @@ const shadowHeader = () => {
 window.addEventListener("scroll", shadowHeader);
 
 /* ===========PEKA*/
-document.getElementById("btn").onclick = function () {
-  alert("Peka is 16 years old right now!");
-};
+//document.getElementById("btn").onclick = function () {
+//alert("Peka is 16 years old right now!");
+//};
 
 /*  TODAY I LEARNT IF AND ELSE STATEMENT */
 
@@ -51,3 +51,31 @@ var iLoveJs = true;
 if (iLoveJs) {
   console.log("Good girl Keep it going ");
 } else console.log("You dont have a choice, Go back to it");
+//  WRITE A PROGRAM TO FIND THE FOLLOWING SCORES IN A TERTIARY INSTITUTION
+
+//If a student got between  75- 100 print out >> FIRST CLASS UPPER
+// IF A STUDENT GOT BETWEEN 65- 100 PRINT OUT >> SECOND CLASS UPPER
+// IF A STUDENT GOT BRETWEEN 50 - 64 PRINT OUT >> SECOND CLASS LOWER
+// IF A STUDENT GOT BETWEEN 41 - 49 PRINT OUT >> THIRD CLASS
+// IF A STUDENT GOT BETWEEN 30 - 40 PRINT OUT >> PASS
+// ELSE FAIL
+
+//SOLUTION
+
+var scores = 20; //where scores is a varaiable and the valueis an initialization
+if (scores >= 75 && scores <= 100) {
+  console.log("FIRST CLASS UPPER");
+} else if (scores >= 65 && scores <= 100) {
+  console.log("SECOND CLASS UPPER");
+} else if (scores >= 50 && scores <= 64) {
+  console.log("SECOND CLASS LOWER");
+} else if (scores >= 41 && scores <= 49) {
+  console.log("THIRD CLASS");
+} else if (scores >= 30 && scores <= 40) {
+  console.log("PASS");
+} else {
+  console.log("FAILED...ADVISED TO WITHDRAW NOW!");
+}
+/*else if (scores >= 1 && scores <= 29) {
+  console.log("FAIL!");}
+*/
