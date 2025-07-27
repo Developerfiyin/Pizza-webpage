@@ -376,8 +376,23 @@ img {
   justify-self: center;
   filter: var(--shadow-big-img);
 }
-/* ADD SHADOW HEADER */
+/* STYLE POPULAR =========== */
+.popular__container {
+  grid-template-columns: 100%;
+  row-gap: 3rem;
+  padding-bottom: 2rem;
+}
+.popular__data .section-title {
+  margin-bottom: 1rem;
+}
 
+.popular__description {
+  text-align: center;
+}
+
+.popular__swiper {
+  position: relative;
+}
 /*ACTIVE LINK */
 
 /* ================HOME */
