@@ -393,6 +393,15 @@ img {
 .popular__swiper {
   position: relative;
 }
+
+.popular__dish {
+  width: 220px;
+  filter: var(--shadow-big-img);
+  position: absolute;
+  inset: 0;
+  top: -0.85rem;
+  margin-inline: auto;
+}
 /*ACTIVE LINK */
 
 /* ================HOME */
