@@ -402,6 +402,12 @@ img {
   top: -0.85rem;
   margin-inline: auto;
 }
+
+.popular__card,
+.popular__img {
+  width: 200px;
+}
+
 /*ACTIVE LINK */
 
 /* ================HOME */
