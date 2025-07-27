@@ -408,6 +408,12 @@ img {
   width: 200px;
 }
 
+.popular__title {
+  font-size: var(--h3-font-size);
+  color: var(--first-color);
+  margin-top: 2rem;
+  text-align: center;
+}
 /*ACTIVE LINK */
 
 /* ================HOME */
