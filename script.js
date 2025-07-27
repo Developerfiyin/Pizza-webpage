@@ -40,6 +40,13 @@ const shadowHeader = () => {
 };
 window.addEventListener("scroll", shadowHeader);
 
+//CONST SWIPER POPLAR
+const swiperPopular = new Swiper(".popular__swiper", {
+  loop: true,
+  grabCursor: true,
+  slidesPerView: "auto",
+  centeredSlides: "auto",
+});
 /* ===========PEKA*/
 //document.getElementById("btn").onclick = function () {
 //alert("Peka is 16 years old right now!");
