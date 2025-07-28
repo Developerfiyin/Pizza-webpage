@@ -408,11 +408,22 @@ img {
   width: 200px;
 }
 
+.popular__img {
+  transform: scale(0.8) rotate(-90deg);
+  transition: transform 0.4s;
+}
 .popular__title {
   font-size: var(--h3-font-size);
   color: var(--first-color);
   margin-top: 2rem;
   text-align: center;
+  opacity: 0;
+  transition: opacity 0.4s;
+}
+/*Swiper CLASS*/
+.swiper {
+  margin-inline: initial;
+  overflow: visible;
 }
 /*ACTIVE LINK */
 
