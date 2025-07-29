@@ -432,7 +432,22 @@ img {
 :is(.swiper-slide-active, .swiper-slide-duplicate) .popular__img {
   transform: scale(1) rotate(0);
 }
-/* ================HOME */
+/* ================HRECIPE STYLING================== */
+.recipe {
+  background-color: var(--container-color);
+}
+.recipe__container {
+  row-gap: 2rem;
+  padding-bottom: 2rem;
+}
 
+.recipe__image {
+  width: 60px;
+  filter: var(--shadow-small-img);
+}
+.recipe__name {
+  font-size: var(--normal-font-size);
+  margin-bottom: 0.25rem;
+}
 /* ==================BUTTON */
 /* ==============ABOUT=========== */
