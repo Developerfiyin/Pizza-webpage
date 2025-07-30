@@ -490,4 +490,15 @@ img {
   transition: transform 0.4s;
 }
 
+.products__name {
+  font-size: var(--h3-font-size);
+  margin-bottom: 0.5rem;
+}
+
+.products__price {
+  font-family: var(--second-font);
+  font-size: var(--h1-font-size);
+  line-height: 120%;
+  color: var(--first-color);
+}
 /* ==============ABOUT=========== */
