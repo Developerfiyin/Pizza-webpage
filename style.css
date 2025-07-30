@@ -529,3 +529,12 @@ img {
   overflow: hidden;
   row-gap: 3rem;
 }
+.contact__container .section__title,
+.contact__title,
+.contact__address {
+  color: var(--white-color);
+}
+
+.contact__info (
+
+);
