@@ -560,3 +560,11 @@ img {
 .contact__address {
   font-style: normal;
 }
+.contact__map {
+  color: var(--first-color);
+  display: inline-flex;
+  align-items: center;
+  column-gap: 0.5rem;
+  margin-top: 0.5rem;
+  font-size: 1rem;
+}
