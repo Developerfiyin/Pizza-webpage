@@ -535,6 +535,11 @@ img {
   color: var(--white-color);
 }
 
-.contact__info (
+.contact__info {
+  text-align: center;
+  row-gap: 2rem;
+}
 
-);
+.contact__title {
+  margin-bottom: 1rem;
+}
