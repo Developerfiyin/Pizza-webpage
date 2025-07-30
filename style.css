@@ -489,16 +489,29 @@ img {
   filter: var(--shadow-small-img);
   transition: transform 0.4s;
 }
-
 .products__name {
   font-size: var(--h3-font-size);
   margin-bottom: 0.5rem;
 }
-
 .products__price {
   font-family: var(--second-font);
   font-size: var(--h1-font-size);
   line-height: 120%;
   color: var(--first-color);
+}
+.products__button {
+  position: absolute;
+  right: 0.75rem;
+  bottom: 1.25rem;
+  background-color: var(--first-color);
+  color: var(--white-color);
+  padding: 4px;
+  border-radius: 0.5rem;
+  font-size: 1.5rem;
+  display: inline-flex;
+  box-shadow: 0 4px 16px hsla(353, 100%, 40%, 0.4);
+  cursor: pointer;
+
+  transition: background-color 0.4s;
 }
 /* ==============ABOUT=========== */
