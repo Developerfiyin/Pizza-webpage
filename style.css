@@ -520,4 +520,12 @@ img {
 .products__card:hover .products__img {
   transform: translateY(-0.5rem);
 }
-/* ==============ABOUT=========== */
+/* ==============CONTACT STYLING=========== */
+.contact__container {
+  position: relative;
+  background-color: var(--first-color-dark);
+  padding-top: 3.5rem;
+  border-radius: 3rem;
+  overflow: hidden;
+  row-gap: 3rem;
+}
