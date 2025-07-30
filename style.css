@@ -568,3 +568,23 @@ img {
   margin-top: 0.5rem;
   font-size: 1rem;
 }
+
+.contact__map span {
+  font-weight: var(--font-semi-bold);
+  font-size: var(--small-font-size);
+}
+
+.contact__image {
+  justify-self: center;
+}
+.contact__img {
+  width: 300px;
+}
+
+.contact__sticker-1,
+.contact__sticker-2,
+.contact__sticker-3 {
+  width: 40px;
+  position: absolute;
+  opacity: 0.7;
+}
