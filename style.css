@@ -603,3 +603,13 @@ img {
   left: 2rem;
   bottom: 6rem;
 }
+
+/* FOOTER STYLLING */
+.footer {
+  padding-block: 4rem 2rem;
+}
+
+.footer__container,
+.footer__content {
+  row-gap: 3rem;
+}
