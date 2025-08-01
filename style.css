@@ -619,3 +619,13 @@ img {
   font-family: var(--second-font);
   color: var(--first-color);
 }
+.footer__title {
+  font-size: var(--h3-font-size);
+  margin-bottom: 1rem;
+}
+
+.footer__social,
+.footer__pay,
+.footer__form {
+  display: flex;
+}
