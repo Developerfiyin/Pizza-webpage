@@ -644,13 +644,13 @@ img {
   width: 30px;
   filter: var(--shadow-small-img);
 }
-
 .footer__form {
   padding: 0.5rem;
   background-color: var(--container-color);
   box-shadow: 0 4px 16px hsla(353, 100%, 8%, 0.1);
   border-radius: 4rem;
 }
+
 .footer__input {
   width: 100%;
   background: transparent;
@@ -661,4 +661,16 @@ img {
 
 .footer__input::placeholder {
   color: var(--text-color);
+}
+
+.footer__button {
+  padding-block: 0.75rem;
+  cursor: pointer;
+}
+
+.footer__policy {
+  display: flex;
+  column-gap: 2rem;
+  justify-content: center;
+  margin-top: 5rem;
 }
