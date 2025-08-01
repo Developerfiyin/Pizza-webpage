@@ -613,3 +613,9 @@ img {
 .footer__content {
   row-gap: 3rem;
 }
+.footer__logo {
+  justify-self: center;
+  font-size: var(--h1-font-size);
+  font-family: var(--second-font);
+  color: var(--first-color);
+}
