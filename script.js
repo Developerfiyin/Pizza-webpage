@@ -47,6 +47,17 @@ const swiperPopular = new Swiper(".popular__swiper", {
   slidesPerView: "auto",
   centeredSlides: "auto",
 });
+
+/*============SHOW SCROLL UP */
+const scrollUp = () => {
+  const scrollUp = document.getElementById("scroll-up");
+  this.scrollY >= 350
+    ? scrollUp.classList.add("show-scroll")
+    : scrollUp.classList.remove("show-scroll");
+  //When the scroll is higher than 350 viewport height, add the
+};
+
+window.addEventListener("scroll", scrollUp);
 /* ===========PEKA*/
 //document.getElementById("btn").onclick = function () {
 //alert("Peka is 16 years old right now!");
