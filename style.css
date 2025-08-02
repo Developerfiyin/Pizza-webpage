@@ -719,3 +719,9 @@ img {
 .scrollup:hover {
   transform: translateY(-0.5rem);
 }
+
+/* SHOW SCROLL UP*/
+
+.show-scroll {
+  bottom: 3rem;
+}

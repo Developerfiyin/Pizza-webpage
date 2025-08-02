@@ -56,7 +56,6 @@ const scrollUp = () => {
     : scrollUp.classList.remove("show-scroll");
   //When the scroll is higher than 350 viewport height, add the
 };
-
 window.addEventListener("scroll", scrollUp);
 /* ===========PEKA*/
 //document.getElementById("btn").onclick = function () {
