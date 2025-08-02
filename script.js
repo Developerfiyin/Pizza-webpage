@@ -57,7 +57,22 @@ const scrollUp = () => {
   //When the scroll is higher than 350 viewport height, add the
 };
 window.addEventListener("scroll", scrollUp);
-/* ===========PEKA*/
+
+/*SCROLL SECTIONS ACTIVE LINK*/
+const sections = document.querySelectorAll("section[id]");
+const scrollActive = () => {
+  const scrollDown = window.scrollY,
+  
+sections.forEach((current => {
+  const sectionHeight = current.offsetHeight,
+    sectionTop = current.offsetTop - 58,
+    sectionId = current.getAttribute('id'),
+  sectionsClass = document.querySelector(".nav__menu a[href*=" + sectio
+};
+);
+  /* ===========PEKA*/
+});
+
 //document.getElementById("btn").onclick = function () {
 //alert("Peka is 16 years old right now!");
 //};
