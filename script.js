@@ -61,17 +61,17 @@ window.addEventListener("scroll", scrollUp);
 /*SCROLL SECTIONS ACTIVE LINK*/
 const sections = document.querySelectorAll("section[id]");
 const scrollActive = () => {
-  const scrollDown = window.scrollY,
+  const scrollDown = window.scrollY
   
-sections.forEach((current => {
+sections.forEach(current => {
   const sectionHeight = current.offsetHeight,
     sectionTop = current.offsetTop - 58,
     sectionId = current.getAttribute('id'),
-  sectionsClass = document.querySelector(".nav__menu a[href*=" + sectio
-};
-);
+  sectionsClass = document.querySelector(".nav__menu a[href*=" + sectionId + ']')
+
+
   /* ===========PEKA*/
-});
+};
 
 //document.getElementById("btn").onclick = function () {
 //alert("Peka is 16 years old right now!");
