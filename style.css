@@ -674,3 +674,13 @@ img {
   justify-content: center;
   margin-top: 5rem;
 }
+.footer__link {
+  font-size: var(--small-font-size);
+  color: var(--text-color);
+}
+.footer__copy {
+  display: block;
+  margin-top: 2rem;
+  text-align: center;
+  font-size: var(--small-font-size);
+}
