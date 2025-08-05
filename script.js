@@ -73,6 +73,7 @@ const scrollActive = () => {
   /* ===========PEKA*/
 };
 
+
 //document.getElementById("btn").onclick = function () {
 //alert("Peka is 16 years old right now!");
 //};
@@ -108,6 +109,6 @@ if (scores >= 75 && scores <= 100) {
 } else {
   console.log("FAILED...ADVISED TO WITHDRAW NOW!");
 }
-/*else if (scores >= 1 && scores <= 29) {
+//else if (scores >= 1 && scores <= 29) {
   console.log("FAIL!");}
-*/
+//
