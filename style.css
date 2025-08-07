@@ -232,6 +232,11 @@ img {
   box-shadow: 0 4px 16px hsla(353, 100%, 8%, 0.1);
 }
 
+/* ---------ACTIVE LINK*/
+.active-link {
+  width: 60%;
+}
+
 /* ---------============HOME =============-*/
 .home__container {
   padding-block: 2rem 3rem;
@@ -724,4 +729,20 @@ img {
 
 .show-scroll {
   bottom: 3rem;
+}
+
+/*----------=============BREAKPOINTS ====================
+FOR SMALL DEVICES
+
+
+*/
+@media screen and (max-width: 320px) {
+  .container {
+    margin-inline: 1rem;
+  }
+
+  .products__container {
+    grid-template-columns: 15px;
+    justify-content: center;
+  }
 }
