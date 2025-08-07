@@ -779,4 +779,28 @@ FOR SMALL DEVICES
     width: 450px;
     margin-inline: auto;
   }
+  .footer__form {
+    width: 360px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .popular__swiper {
+    width: 600px;
+    overflow-x: clip;
+    justify-self: center;
+  }
+
+  .products__container {
+    grid-template-columns: repeat(3, 160px);
+  }
+
+  .footer__content {
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+  }
+
+  .footer__content div:nth-child(3) {
+    grid-column: 1/3;
+  }
 }
