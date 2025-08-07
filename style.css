@@ -761,3 +761,22 @@ FOR SMALL DEVICES
     border-radius: 4rem;
   }
 }
+
+@media screen and (min-width: 576px) {
+  .home__container,
+  .about__container,
+  .popular__container,
+  .recipe__container {
+    grid-template-columns: 380px;
+    justify-content: center;
+  }
+  .products__container {
+    grid-template-columns: repeat(2, 160px);
+    justify-content: center;
+  }
+
+  .contact__container {
+    width: 450px;
+    margin-inline: auto;
+  }
+}
