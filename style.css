@@ -745,4 +745,19 @@ FOR SMALL DEVICES
     grid-template-columns: 15px;
     justify-content: center;
   }
+
+  .footer__form {
+    background-color: transparent;
+    box-shadow: none;
+    flex-direction: column;
+    row-gap: 1rem;
+    padding: 0;
+  }
+
+  .footer__input {
+    background-color: var(--container-color);
+    box-shadow: 0 4px 16px hsla(353, 100%, 8%, 0.1);
+    padding: 0.75rem 1rem;
+    border-radius: 4rem;
+  }
 }
