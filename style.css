@@ -857,4 +857,15 @@ where
   .home__sticker-2 {
     width: 50px;
   }
+  .home__sticker-1 {
+    right: 3rem;
+    top: 1rem;
+    bottom: 0;
+  }
+  .home__sticker-2 {
+    left: 16rem;
+    bottom: 3rem;
+  }
+  .home__board {
+  }
 }
