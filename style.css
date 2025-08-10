@@ -733,7 +733,7 @@ img {
 
 /*----------=============BREAKPOINTS ====================
 FOR SMALL DEVICES
-
+where 
 
 */
 @media screen and (max-width: 320px) {
@@ -841,5 +841,20 @@ FOR SMALL DEVICES
   .home__container {
     grid-template-columns: 515px 55px;
     column-gap: 3rem;
+    align-items: start;
+    padding-block: 10rem 4rem;
+  }
+  .home__data {
+    text-align: initial;
+    margin-top: 2rem;
+  }
+  .home__description {
+    margin-bottom: 3.5rem;
+    padding-right: 6rem;
+  }
+
+  .home__sticker-1,
+  .home__sticker-2 {
+    width: 50px;
   }
 }
