@@ -75,7 +75,8 @@ const scrollActive = () => {
   sectionsClass.classList.remove('active-link')
  }
  }) /* ===========PEKA*/
-};
+}
+window.addEventListener;
 
 
 //document.getElementById("btn").onclick = function () {
