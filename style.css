@@ -866,6 +866,21 @@ where
     left: 16rem;
     bottom: 3rem;
   }
+  .home__board,
+  .home__pizza {
+    width: 520px;
+  }
   .home__board {
+    bottom: -1rem;
+  }
+  .home__ingredient {
+    width: 100px;
+  }
+  .home__leaf-1 {
+    top: -2rem;
+  }
+  .home__pepperoni {
+    right: -1rem;
+    top: 3.5rem;
   }
 }
