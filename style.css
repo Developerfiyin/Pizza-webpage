@@ -126,7 +126,7 @@ img {
   padding-block: 5rem 1rem;
 }
 
-.section-title {
+.section__title {
   text-align: center;
   font-size: var(--bigger-font-size);
   margin-bottom: 2rem;
@@ -361,7 +361,7 @@ img {
   text-align: center;
 }
 
-.about__data .section-title {
+.about__data .section__title {
   margin-bottom: 1rem;
 }
 
@@ -387,7 +387,7 @@ img {
   row-gap: 3rem;
   padding-bottom: 2rem;
 }
-.popular__data .section-title {
+.popular__data .section__title {
   margin-bottom: 1rem;
 }
 
@@ -822,7 +822,7 @@ where
     padding-block: 7rem 2rem;
   }
 
-  .section-title {
+  .section__title {
     margin-bottom: 4rem;
   }
   .nav {
