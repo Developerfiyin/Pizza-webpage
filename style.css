@@ -897,4 +897,15 @@ where
     order: -1;
     width: 450px;
   }
+  .about__data {
+    text-align: initial;
+  }
+  .about__data .section__title {
+    margin-bottom: 1.5rem;
+    text-align: initial;
+  }
+
+  .about__description {
+    margin-bottom: 3.5rem;
+  }
 }
